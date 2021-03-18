@@ -20,8 +20,10 @@ class Result extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Center(
-      child: Column(
+    return 
+      Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
           Text(
             resultPhrase,
@@ -33,6 +35,6 @@ class Result extends StatelessWidget {
             onPressed: resetHandler,
           )
         ],
-      ));
+      );
   }
 }

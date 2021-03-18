@@ -7,7 +7,7 @@ class Answer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      width: double.infinity,
+      width: 100,
       child: ElevatedButton(
         child: Text(answerText),
         onPressed: selectHandler,
